@@ -1,0 +1,36 @@
+{
+  "name": "mouse-moves-random-app",
+  "version": "1.0.0",
+  "description": "The application helps your mouse move randoml",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "rebuild": "electron-rebuild",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://baonq456@github.com/baonq456/mouse_moves_random.git"
+  },
+  "author": "bao.nq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baonq456/mouse_moves_random/issues"
+  },
+  "homepage": "https://github.com/baonq456/mouse_moves_random#readme",
+  "dependencies": {
+    "electron-rebuild": "^3.2.9",
+    "electron-squirrel-startup": "^1.0.0",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^27.0.2"
+  }
+}
